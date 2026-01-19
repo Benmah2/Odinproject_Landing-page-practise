@@ -1,19 +1,46 @@
 *{
     font-family: Roboto;
 }
+#Headerlogo{
+    display: flex;
+ 
+}
+
 header {
     background-color: #1F2937;
     color:white;
     display: flex;
-    align-items:flex-end;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20%
+}
+.outsidebox1{
+    display: flex;
+}
+.introtop{
+    background-color: #1F2937;
+    color:white;
+}
+.headeritem{
+    display: flex;
+    gap: 20px;
+    align-items:center;
 }
 .maintext{
     font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 .under-header
 {
     background-color: #1F2937;
     color:white;
+}
+button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12%;
+    border-color: #3882F6;
 }
 .header-secondarytext{
     font-size: 18px;
