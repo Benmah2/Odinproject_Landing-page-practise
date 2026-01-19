@@ -2,3 +2,18 @@
     font-style: Roboto;
 }
 
+header{
+    background-color: #1F2937;
+    color:white;
+}
+
+.boxes-position{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.random-content-boxes {
+    align-items: center;
+    background-color: blue;
+}
