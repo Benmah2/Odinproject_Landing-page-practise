@@ -1,9 +1,13 @@
 *{
     font-family: Roboto;
+    padding: 0;
+    margin: 0;
+    
 }
-#Headerlogo{
+.headerlogo{
     display: flex;
- 
+    font-size: 24px;
+    outline: 2px solid red;
 }
 
 header {
@@ -12,24 +16,40 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 20%
+    gap: 20%;
+    padding-bottom: 250px;
 }
+
 .outsidebox1{
     display: flex;
+    
 }
 .introtop{
     background-color: #1F2937;
     color:white;
+    margin-top: 50px;
+    
 }
 .headeritem{
     display: flex;
     gap: 20px;
     align-items:center;
+    outline: 2px solid red;
+}
+.header-items-align{
+    display: flex;
+    gap: 400px;
+    margin-top: 10px;
 }
 .maintext{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    outline: 2px solid red;
+    padding: 10px;
+    height: 100px;
+    width: 350px;
+    margin-top: 50px;;
 }
 .under-header
 {
@@ -45,6 +65,10 @@ button{
 .header-secondarytext{
     font-size: 18px;
     color: #E5E7EB;
+    outline: 2px solid red;
+    height: 70px;
+    width: 450px;
+    margin-top: 10px;
 }
 html, body{
     margin: 0;
