@@ -1,11 +1,29 @@
 *{
     font-family: Roboto;
 }
-
-header{
+header {
+    background-color: #1F2937;
+    color:white;
+    display: flex;
+    align-items:flex-end;
+}
+.maintext{
+    font-size: 48px;
+}
+.under-header
+{
     background-color: #1F2937;
     color:white;
 }
+.header-secondarytext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
 
 .boxes-position{
     display: flex;
