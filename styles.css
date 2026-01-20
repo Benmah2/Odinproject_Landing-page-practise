@@ -4,3 +4,26 @@
     margin: 0;
     
 }
+
+header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 500px;
+}
+
+.header-logo {
+    font-size: 48px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    outline: solid red;
+}
