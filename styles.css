@@ -22,6 +22,16 @@ header {
     display: flex;
     flex-direction: row;
     gap: 500px;
+    outline: solid red;
+}
+.top-row-margin {
+    margin-top: 150px;
+    outline: dotted blue;
+}
+.columns {
+    display: flex;
+    flex-direction: column;
+       outline: solid red;
 }
 .header-logo {
     font-size: 48px;
