@@ -12,15 +12,14 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items:center;
-    padding-bottom: 500px;
-    padding-top: 10px;
+    padding-bottom: 100px;
   
 }
 .top-row {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 100px;
+    gap: 400px;
     padding: 20px;
 }
 .top-row-margin {
@@ -38,7 +37,6 @@ header {
 .columns {
     gap: 10px;
     max-width: 350px;
-    
 }
 .header-logo {
     font-size: 18px;
@@ -63,4 +61,45 @@ header {
     padding-left: 22px;
     padding-right: 22px;
     border-radius: 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.section-info {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 50px;
+}
+.info-text
+{
+    align-self: center;
+    font-size: 36px;
+    color: #1F2937;
+    padding-bottom: 50px;
+}
+.outside-box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+.box{
+    align-self: center;
+    outline: solid blue;
+    padding-top: 120px;
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 10px;
+    
+}
+.box-info{
+    margin-top: 10px;
+    max-width: 250px;
+    max-width: 150px;
 }
