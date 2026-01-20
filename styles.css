@@ -61,6 +61,7 @@ header {
     padding-left: 22px;
     padding-right: 22px;
     border-radius: 10px;
+    margin: 5px;
 }
 main{
     display: flex;
