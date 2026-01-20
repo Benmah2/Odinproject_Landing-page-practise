@@ -9,21 +9,28 @@ header {
     background-color: #1F2937;
     color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     padding-right: 200px;
     padding-left: 200px;
     padding-bottom: 500px;
+    padding-top: 10px;
+  
 }
-
+.top-row {
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+}
 .header-logo {
     font-size: 48px;
 }
 
 .items {
-    display: flex;
+    display: flex; 
     flex-direction: row;
+    align-items: center;
     gap: 20px;
     outline: solid red;
 }
