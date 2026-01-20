@@ -12,8 +12,6 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items:center;
-    padding-right: 200px;
-    padding-left: 200px;
     padding-bottom: 500px;
     padding-top: 10px;
   
@@ -21,26 +19,48 @@ header {
 .top-row {
     display: flex;
     flex-direction: row;
-    gap: 500px;
-    outline: solid red;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
 }
 .top-row-margin {
-    margin-top: 150px;
-    outline: dotted blue;
-}
-.columns {
+    margin-top: 75px;
     display: flex;
-    flex-direction: column;
-       outline: solid red;
+    flex-direction: row;
 }
-.header-logo {
-    font-size: 48px;
+.top-row-image {
+    padding: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: gray;
 }
 
+.columns {
+    gap: 10px;
+    max-width: 350px;
+    
+}
+.header-logo {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-right: 200px;
+}
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    }
 .items {
     display: flex; 
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    outline: solid red;
+}
+
+.button-header {
+    background-color: #3882f6;
+    color: white;
+    padding: 9px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 10px;
 }
