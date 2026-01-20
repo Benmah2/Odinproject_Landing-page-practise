@@ -153,10 +153,14 @@ main{
     border-radius: 10px;
 }
 
-.footer{
-    padding-bottom: auto;
-    padding-top: 0px;
+footer{
+    padding-bottom: 130px;
     background-color: #1F2937;
     color: white;
-    
+      
+}
+.footer-text {
+    display: flex;
+    padding-top: 70px;
+    justify-self: center;
 }
