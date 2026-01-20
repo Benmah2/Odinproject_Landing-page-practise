@@ -19,7 +19,18 @@ header {
     gap: 20%;
     padding-bottom: 250px;
 }
-
+.container {
+    outline: 2px solid red;
+    display: block;
+}
+.image1 {
+    display: flex;
+    width: 400px;
+    height: 150px;
+    outline: 2px solid red;
+    margin-left: 500px;
+    margin-bottom: 200px;
+}
 .outsidebox1{
     display: flex;
     
